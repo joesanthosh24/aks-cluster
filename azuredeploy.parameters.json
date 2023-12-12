@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "clusterName": {
+      "value": "myAksClusterJoe"
+    },
+    "location": {
+      "value": "canadacentral"
+    },
+    "dnsPrefix": {
+      "value": "joesdns"
+    },
+    "osDiskSizeGB": {
+      "value": 30
+    },
+    "agentCount": {
+      "value": 1
+    },
+    "agentVMSize": {
+      "value": "standard_d2s_v3"
+    },
+    "linuxAdminUsername": {
+      "value": "joesanthosh"
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC6bCpBP/owgfz890pr1A4LipTEaRyccBRpiZO8jTtV1U48+ejo9cY/mL8IIjQW3yEzTfzXJEdtviJ6KQgzI/cObd9o5Y0R6jgzytEKJ6/x6DCIau27uukqUSu0NvkhUhdSzQH0tskt5zqENKoDvxfA1GNF6lZYnva5jQuJVL6vyTcCCl+F69N0jgQpnQyiUZxMk9SGfofGMYWAGziqulHmeWVrEtvEng/CZ/3Zm4wOKVay2YiWOcBwWPH9igoTFKWObq0ysyxKWva71k09soR5ojQKfcJA8k5+LqgcMMwB3Quf2xAnO0oPSsb6JOMnDsmNAwfK5vrXJhnqsvst3eSOMtJcpC/w0zLDuhOXZvNG6lb6z8jzrLg6yBZ5NFXcCNbdJ5BC4QBtr+lHD8G9kO7Pf3QjXMIHhHupjXsXJcE4LNlcA9SR9F5AR/FaIV4A2QJ47tb57vFrVWTUG6mwZJEnPdlJvFn7nlD8WWxee+lZnQPdKIN8FAUfGLxT4qeItL0= generated-by-azure"
+    }
+  }
+}
